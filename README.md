@@ -67,6 +67,7 @@ No MCP client needed — the same catalog is public on the web:
 
 - **Website:** https://artistally.alchemylab.sh
 - **Connect guide (canonical tool list):** https://artistally.alchemylab.sh/mcp
+- **Also on Smithery:** https://smithery.ai/servers/alix-petkov/artistally
 - **Official MCP registry:** `sh.alchemylab.artistally/conventions`
 
 ## License
