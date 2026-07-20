@@ -70,6 +70,14 @@ No MCP client needed — the same catalog is public on the web:
 - **Also on Smithery:** https://smithery.ai/servers/alix-petkov/artistally
 - **Official MCP registry:** `sh.alchemylab.artistally/conventions`
 
+## For registry tooling
+
+The `Dockerfile` here is **not** the server — it's a thin
+[`mcp-remote`](https://www.npmjs.com/package/mcp-remote) bridge so directories
+that build and introspect a container (e.g. Glama's checks) can start the
+server and list its tools against the live endpoint. There's still nothing to
+run locally; just point your client at the URL above.
+
 ## License
 
 [MIT](LICENSE) — covers this documentation repository. The ArtistAlly service
